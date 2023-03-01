@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.40b63320.css",
-    "main.js": "/my-portfolio/static/js/main.3370cf64.js",
+    "main.js": "/my-portfolio/static/js/main.f7c42121.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Pankaj_Chavan.pdf": "/my-portfolio/static/media/Pankaj_Chavan.59ce97055e1dc37141a5.pdf",
+    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.4e91175a39f1ea944d72.jpg",
     "static/media/resumeBuilder.png": "/my-portfolio/static/media/resumeBuilder.6344167a51d1fa5e3c26.png",
     "static/media/crypto.png": "/my-portfolio/static/media/crypto.5ea9bbf83309062de952.png",
     "static/media/home-main.svg": "/my-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/flashcard.png": "/my-portfolio/static/media/flashcard.9a3f99b1950ff7c6e287.png",
     "static/media/calc.png": "/my-portfolio/static/media/calc.c787ea89dd99128fb056.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/my-portfolio/static/media/Soumyajit_Behera-BIT_MESRA.bbcb2cb6b9e727b164f6.pdf",
     "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/my-portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-portfolio/index.html",
     "main.40b63320.css.map": "/my-portfolio/static/css/main.40b63320.css.map",
-    "main.3370cf64.js.map": "/my-portfolio/static/js/main.3370cf64.js.map",
+    "main.f7c42121.js.map": "/my-portfolio/static/js/main.f7c42121.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40b63320.css",
-    "static/js/main.3370cf64.js"
+    "static/js/main.f7c42121.js"
   ]
 }
