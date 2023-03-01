@@ -26,7 +26,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img src={PankajChavan} alt="PankajChavan" className="img-fluid w-75"></img>
+          <img src={PankajChavan} alt="Pankaj_chavan" className="img-fluid w-75"></img>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
