@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import {  pdfjs } from "react-pdf";
 
 import Particle from "../Particle";
-import pdf from "../../Assets/Pankaj_Chavan.pdf";
+import pdf from "../../Assets/PankajChavan.pdf";
 import PankajChavan from "../../Assets/PankajChavan.jpg";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 function ResumeNew() {
