@@ -8,6 +8,8 @@ import flashcard from "../../Assets/Projects/flashcard.png";
 import crypto from "../../Assets/Projects/crypto.png";
 import myportfolio from "../../Assets/Projects/myportfolio.png";
 import getYTS from "../../Assets/Projects/getYTS.png";
+import myPlan from "../../Assets/Projects/myPlan.png";
+
 
 function Projects() {
   return (
@@ -83,6 +85,16 @@ function Projects() {
               description="This is a node express app. This is a API to get youtube subscribers details. There are four API endpoints in this app, '/ ' default route, '/subscribers' route , '/subscribers/names' route, '/subscribers/:id' route. for more details aboute this app please read the README.md."
               ghLink="https://github.com/panku-chavan/get-youtube-subscribers"
               demoLink="https://get-youtube-subscribers-one.vercel.app/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myPlan}
+              isBlog={false}
+              title="My Plan"
+              description="This is a mini project for creating our daily plans. Like what can i do today or something else. This is a Front-end project using react and boostrap. This app is live on git-hub pages."
+              ghLink="https://github.com/panku-chavan/my-plan"
+              demoLink="https://panku-chavan.github.io/my-plan/"              
             />
           </Col>
 
