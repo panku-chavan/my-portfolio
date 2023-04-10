@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.40b63320.css",
-    "main.js": "/my-portfolio/static/js/main.16e93305.js",
+    "main.js": "/my-portfolio/static/js/main.1f5c630b.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.c1fd6453d3360df4c41a.jpg",
+    "static/media/ecom.jpg": "/my-portfolio/static/media/ecom.05f225b4d075ae7a1935.jpg",
     "static/media/profilePic.jpg": "/my-portfolio/static/media/profilePic.38fc7369db5bfab30fc2.jpg",
     "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.b94925bf424624bde176.pdf",
     "static/media/myportfolio.png": "/my-portfolio/static/media/myportfolio.58fce0f1875f0c9543b5.png",
@@ -19,11 +20,11 @@
     "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-portfolio/index.html",
     "main.40b63320.css.map": "/my-portfolio/static/css/main.40b63320.css.map",
-    "main.16e93305.js.map": "/my-portfolio/static/js/main.16e93305.js.map",
+    "main.1f5c630b.js.map": "/my-portfolio/static/js/main.1f5c630b.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40b63320.css",
-    "static/js/main.16e93305.js"
+    "static/js/main.1f5c630b.js"
   ]
 }
