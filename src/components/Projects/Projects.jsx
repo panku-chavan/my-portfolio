@@ -51,7 +51,7 @@ function Projects() {
               imgPath={ecom}
               isBlog={false}
               title="E-Commerce"
-              description="This is a e-commerce website. This is a Full stack web aplication or a MERN stack web application same as common ecommerce websites. In this app user can buy product online. This project also have admin as well as user dashboard so shop owner which is a admin cad add product and categories. Both front and backend works properly"
+              description="This is a e-commerce website. This is a Full stack web aplication or a MERN stack web application same as common ecommerce websites. In this app user can buy product online. This project also have admin as well as user dashboard so shop owner which is a admin cad add product and categories. Both front and backend works properly."
               ghLink="https://github.com/panku-chavan/e-commerce-app-2023"
               demoLink="https://ruby-tasty-coyote.cyclic.app/"
             />
