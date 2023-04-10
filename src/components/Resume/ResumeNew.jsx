@@ -2,7 +2,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import {  pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 
 import Particle from "../Particle";
 import pdf from "../../Assets/PankajChavan.pdf";
