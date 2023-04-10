@@ -62,7 +62,7 @@ function Projects() {
               imgPath={resumeBuilder}
               isBlog={false}
               title="Resume Builder"
-              description="In this app user can make there resume  by simply adding there information and download there resume in pdf format.This is a sipmle react app. The hole app develop with reactJs, React hooks, Design with react bootstrap and manage the state using react redux. This is aslo a Single Page application SPA."
+              description="In this app user can make there resume by simply adding there information and download there resume in pdf format.This is a sipmle react app. The hole app develop with reactJs, React hooks, Design with react bootstrap and manage the state using react redux. This is aslo a Single Page application SPA."
               ghLink="https://github.com/panku-chavan/resume-builder"
               demoLink="https://panku-chavan.github.io/resume-builder/"
             />
