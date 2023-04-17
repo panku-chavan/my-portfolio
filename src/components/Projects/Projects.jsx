@@ -10,6 +10,8 @@ import myportfolio from "../../Assets/Projects/myportfolio.png";
 import getYTS from "../../Assets/Projects/getYTS.png";
 import myPlan from "../../Assets/Projects/myPlan.png";
 import ecom from "../../Assets/Projects/ecom.jpg"
+import textToVoice from "../../Assets/Projects/text-to-voice.png"
+
 
 
 function Projects() {
@@ -105,6 +107,16 @@ function Projects() {
               description="This is a mini project for creating our daily plans. Like what can i do today or something else. This is a Front-end project using react and boostrap. This app is live on git-hub pages."
               ghLink="https://github.com/panku-chavan/my-plan"
               demoLink="https://panku-chavan.github.io/my-plan/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={textToVoice}
+              isBlog={false}
+              title="Text to Voice Converter"
+              description="This is a mini project for changing text to voice. Like user can enter any text, word, sentence and simply enter speak button and listen it and enjoy it. This app is live on git-hub pages."
+              ghLink="https://github.com/panku-chavan/text-to-voice-converter"
+              demoLink="https://panku-chavan.github.io/text-to-voice-converter/"
             />
           </Col>
 
