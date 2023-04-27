@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.40b63320.css",
-    "main.js": "/my-portfolio/static/js/main.edc3e898.js",
+    "main.js": "/my-portfolio/static/js/main.9652c82a.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.c1fd6453d3360df4c41a.jpg",
+    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.50344b74c51b03e1dae0.jpg",
     "static/media/ecom.jpg": "/my-portfolio/static/media/ecom.05f225b4d075ae7a1935.jpg",
     "static/media/profilePic.jpg": "/my-portfolio/static/media/profilePic.38fc7369db5bfab30fc2.jpg",
-    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.b94925bf424624bde176.pdf",
+    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.9670f4e153d3d943ec69.pdf",
     "static/media/myportfolio.png": "/my-portfolio/static/media/myportfolio.58fce0f1875f0c9543b5.png",
     "static/media/crypto.png": "/my-portfolio/static/media/crypto.94aaf66b557347b1afe0.png",
     "static/media/resumeBuilder.png": "/my-portfolio/static/media/resumeBuilder.a4bdb79ebd543b75ba85.png",
@@ -21,11 +21,11 @@
     "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-portfolio/index.html",
     "main.40b63320.css.map": "/my-portfolio/static/css/main.40b63320.css.map",
-    "main.edc3e898.js.map": "/my-portfolio/static/js/main.edc3e898.js.map",
+    "main.9652c82a.js.map": "/my-portfolio/static/js/main.9652c82a.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40b63320.css",
-    "static/js/main.edc3e898.js"
+    "static/js/main.9652c82a.js"
   ]
 }
