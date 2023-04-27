@@ -1,15 +1,31 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.40b63320.css",
-    "main.js": "/my-portfolio/static/js/main.9652c82a.js",
+    "main.js": "/my-portfolio/static/js/main.a7f7f028.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.50344b74c51b03e1dae0.jpg",
+    "static/media/JsIntermediate.jpg": "/my-portfolio/static/media/JsIntermediate.67234e1ebecab9e6df4f.jpg",
+    "static/media/jsBasic.jpg": "/my-portfolio/static/media/jsBasic.b5f590650759e20727cd.jpg",
+    "static/media/react.jpg": "/my-portfolio/static/media/react.aa2f55c217a962737630.jpg",
+    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.713903d4f2c934cf8afb.jpg",
     "static/media/ecom.jpg": "/my-portfolio/static/media/ecom.05f225b4d075ae7a1935.jpg",
     "static/media/profilePic.jpg": "/my-portfolio/static/media/profilePic.38fc7369db5bfab30fc2.jpg",
-    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.9670f4e153d3d943ec69.pdf",
+    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.8056a089d21c64afa7e2.pdf",
     "static/media/myportfolio.png": "/my-portfolio/static/media/myportfolio.58fce0f1875f0c9543b5.png",
+    "static/media/advanceReact.png": "/my-portfolio/static/media/advanceReact.010c13cfc1e296f969c0.png",
     "static/media/crypto.png": "/my-portfolio/static/media/crypto.94aaf66b557347b1afe0.png",
     "static/media/resumeBuilder.png": "/my-portfolio/static/media/resumeBuilder.a4bdb79ebd543b75ba85.png",
+    "static/media/node.png": "/my-portfolio/static/media/node.76d7005a5fad6e6b5bdb.png",
+    "static/media/dom.png": "/my-portfolio/static/media/dom.5faee7a8bb950dc5b131.png",
+    "static/media/reduxSync.png": "/my-portfolio/static/media/reduxSync.83b215193b87b3c2c0ac.png",
+    "static/media/aws.png": "/my-portfolio/static/media/aws.055df774319266540358.png",
+    "static/media/mongoose.png": "/my-portfolio/static/media/mongoose.e4063b77aad60cddf0a1.png",
+    "static/media/mongodb.png": "/my-portfolio/static/media/mongodb.a337d824579f31eabcac.png",
+    "static/media/react2.png": "/my-portfolio/static/media/react2.581a35471a0a9dcc0f71.png",
+    "static/media/jqry.png": "/my-portfolio/static/media/jqry.8fd6f81729d433b47883.png",
+    "static/media/css.png": "/my-portfolio/static/media/css.7be04548d22b98f39485.png",
+    "static/media/html.png": "/my-portfolio/static/media/html.57ce3b509dce8ae2904b.png",
+    "static/media/GYS.png": "/my-portfolio/static/media/GYS.4e52b89e5d4e2cb69858.png",
+    "static/media/fg.png": "/my-portfolio/static/media/fg.31bd3f36c1985f6fe1c8.png",
     "static/media/home-main.svg": "/my-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/my-portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/getYTS.png": "/my-portfolio/static/media/getYTS.17fe1ecdbdbdc44689ae.png",
@@ -21,11 +37,11 @@
     "static/media/pre.svg": "/my-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/my-portfolio/index.html",
     "main.40b63320.css.map": "/my-portfolio/static/css/main.40b63320.css.map",
-    "main.9652c82a.js.map": "/my-portfolio/static/js/main.9652c82a.js.map",
+    "main.a7f7f028.js.map": "/my-portfolio/static/js/main.a7f7f028.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40b63320.css",
-    "static/js/main.9652c82a.js"
+    "static/js/main.a7f7f028.js"
   ]
 }
