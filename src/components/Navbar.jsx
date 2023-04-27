@@ -13,6 +13,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { TbCertificate } from "react-icons/tb";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -37,8 +38,8 @@ function NavBar() {
     >
       <Container>
         {/* <Navbar.Brand href="/" className="d-flex"> */}
-        <Navbar.Brand  className="d-flex">
-         <span className="text-info">Pankaj Chavan</span>
+        <Navbar.Brand className="d-flex">
+          <span className="text-info">Pankaj Chavan</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -88,6 +89,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificate"
+                onClick={() => updateExpanded(false)}
+              >
+                <TbCertificate style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
 
