@@ -3,7 +3,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { pdfjs } from "react-pdf";
-
 import Particle from "../Particle";
 import pdf from "../../Assets/PankajChavan.pdf";
 import PankajChavan from "../../Assets/PankajChavan.jpg";
