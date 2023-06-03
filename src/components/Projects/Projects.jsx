@@ -9,10 +9,9 @@ import crypto from "../../Assets/Projects/crypto.png";
 import myportfolio from "../../Assets/Projects/myportfolio.png";
 import getYTS from "../../Assets/Projects/getYTS.png";
 import myPlan from "../../Assets/Projects/myPlan.png";
-import ecom from "../../Assets/Projects/ecom.jpg"
-import textToVoice from "../../Assets/Projects/text-to-voice.png"
-
-
+import ecom from "../../Assets/Projects/ecom.jpg";
+import textToVoice from "../../Assets/Projects/text-to-voice.png";
+import moviex from "../../Assets/Projects/moviex.png";
 
 function Projects() {
   return (
@@ -34,6 +33,17 @@ function Projects() {
               description="A crypto dashboard is a digital platform that lives on a website or an app (either desktop or mobile). Its primary function is to track your cryptocurrency accounts and coins and monitor their historical prices and current values so that you can manage both your crypto assets and related financial plans accordingly."
               ghLink="https://github.com/panku-chavan/crypto_dashboard"
               demoLink="https://panku-chavan.github.io/crypto_dashboard/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviex}
+              isBlog={false}
+              title="MovieX"
+              description="Displaying popular movies: When you visit the home page, the app sends a request to the TMDB API to fetch a list of popular movies. The response is then used to display the movie titles and overviews on the page. Browse popular movies: Users can visit the home page of the app to browse through a list of popular movies."
+              ghLink="https://github.com/panku-chavan/MovieX"
+              demoLink="https://movie-x-nu.vercel.app/"
             />
           </Col>
 
@@ -119,8 +129,6 @@ function Projects() {
               demoLink="https://panku-chavan.github.io/text-to-voice-converter/"
             />
           </Col>
-
-
         </Row>
       </Container>
     </Container>
