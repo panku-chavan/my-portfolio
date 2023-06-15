@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
@@ -29,6 +29,8 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  const navigate = useNavigate();
+
   return (
     <Navbar
       expanded={expand}
@@ -39,7 +41,7 @@ function NavBar() {
       <Container>
         {/* <Navbar.Brand href="/" className="d-flex"> */}
         <Navbar.Brand className="d-flex">
-          <span className="text-info">Pankaj Chavan</span>
+          <span className="text-info" style={{ cursor: "pointer" }} onClick={() => navigate("/")}>Pankaj Chavan</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -50,6 +52,7 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
+
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -101,6 +104,8 @@ function NavBar() {
                 <TbCertificate style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
+
+
 
             <Nav.Item className="fork-btn">
               <Button
