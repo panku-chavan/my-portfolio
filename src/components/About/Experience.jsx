@@ -19,7 +19,7 @@ const Experience = () => {
                             <p style={{ textAlign: "justify" }}>
                                 Software<span className="purple">Developer Engineer </span>
                                 Front<span className='purple'>end</span> Developer
-                                <br /><GiPostOffice />  <span style={{ padding: "5px", }}>Hostgrad<span className='purple'>WebSolutions</span>, Kolkatta, Remote</span>
+                                <br /><GiPostOffice />  <span style={{ padding: "", }}>Hostgrad<span className='purple'>WebSolutions</span>, Kolkatta, Remote</span>
                                 <br />
                                 <br />
                                 Skills
