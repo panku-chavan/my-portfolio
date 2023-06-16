@@ -6,20 +6,23 @@ import { GiPostOffice } from "react-icons/gi";
 const Experience = () => {
     return (
         <div>
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+            <h1 style={{ fontSize: "2.1em" }}>
                 My <strong className="purple">Eperience</strong>
+
             </h1>
+            <hr />
             <Card className="quote-card-view">
                 <Card.Body>
                     <blockquote className="blockquote mb-0">
 
-                        <hr />
+
                         <div className='p-3'>
 
                             <p style={{ textAlign: "justify" }}>
                                 Software<span className="purple">Developer Engineer </span>
                                 Front<span className='purple'>end</span> Developer
-                                <br /><GiPostOffice />  <span style={{ padding: "", }}>Hostgrad<span className='purple'>WebSolutions</span>, Kolkatta, Remote</span>
+                                <br /><GiPostOffice />  <span style={{ padding: "", }}>Hostgrad<span className='purple'>WebSolutions</span>,
+                                    <br /> <span style={{ paddingLeft: "25px" }}>Kolkatta, Remote</span></span>
                                 <br />
                                 <br />
                                 Skills
@@ -49,7 +52,8 @@ const Experience = () => {
                         <div className='p-3'>
                             <p style={{ textAlign: "justify" }}>
                                 Full Stack<span className="purple"> Web Developer Trainee </span>
-                                <br /><GiPostOffice />  <span style={{ padding: "5px", }}>Alma<span className='purple'>Better</span>, Banglore</span>
+                                <br /><GiPostOffice />  <span >Alma<span className='purple'>Better</span>,
+                                    <br /> <span style={{ paddingLeft: "25px" }}>Banglore, Remote.</span> </span>
                                 <br />
                                 <br />
                                 Skills
@@ -85,7 +89,8 @@ const Experience = () => {
                         <div className="p-3">
                             <p style={{ textAlign: "justify" }}>
                                 Php<span className="purple"> Intern </span>
-                                <br /><GiPostOffice />  <span style={{ padding: "5px", }}>RB<span className='purple'>Softwares</span>, Nashik</span>
+                                <br /><GiPostOffice />  <span >RB<span className='purple'>Softwares</span>,
+                                    <br /><span style={{ paddingLeft: "25px" }}>Nashik, Maharashtra.</span> </span>
                                 <br />
                                 <br />
                                 Skills
