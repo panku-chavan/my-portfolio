@@ -96,7 +96,6 @@ const Experience = () => {
                                 Skills
                             </p>
                             <ul>
-
                                 <li className="about-activity">
                                     <ImPointRight /> Html/Css
                                 </li>
