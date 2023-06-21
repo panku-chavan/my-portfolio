@@ -85,7 +85,6 @@ const Experience = () => {
 
                         </div>
                         <hr />
-
                         <div className="p-3">
                             <p style={{ textAlign: "justify" }}>
                                 Php<span className="purple"> Intern </span>
