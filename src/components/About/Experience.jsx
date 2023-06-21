@@ -82,7 +82,6 @@ const Experience = () => {
                                 </li>
                             </ul>
                             <footer className="blockquote-footer">Augest-2022 to May-2023 : 10 Months</footer>
-
                         </div>
                         <hr />
                         <div className="p-3">
