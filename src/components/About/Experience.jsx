@@ -85,6 +85,7 @@ const Experience = () => {
 
                         </div>
                         <hr />
+
                         <div className="p-3">
                             <p style={{ textAlign: "justify" }}>
                                 Php<span className="purple"> Intern </span>
@@ -95,6 +96,7 @@ const Experience = () => {
                                 Skills
                             </p>
                             <ul>
+
                                 <li className="about-activity">
                                     <ImPointRight /> Html/Css
                                 </li>
