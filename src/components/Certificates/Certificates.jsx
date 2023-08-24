@@ -10,6 +10,7 @@ import GYT from '../../Assets/Cerificates/GYS.png';
 import fg from '../../Assets/Cerificates/fg.png';
 
 import react2 from '../../Assets/Cerificates/react2.png';
+import rpa from '../../Assets/Cerificates/rpa.jpg';
 import advancereact from '../../Assets/Cerificates/advanceReact.png';
 import node from '../../Assets/Cerificates/node.png';
 import jqry from '../../Assets/Cerificates/jqry.png';
@@ -43,6 +44,12 @@ const Certificates = () => {
                         <CertificateCard
                             img={JsIntermediate}
                             title={"Javascript Intermediate"}
+                        />
+                    </Col>
+                    <Col md={6} className="project-card">
+                        <CertificateCard
+                            img={rpa}
+                            title={"RPA Fundamental"}
                         />
                     </Col>
                     <Col md={6} className="project-card">
