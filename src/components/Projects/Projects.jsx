@@ -12,6 +12,8 @@ import myPlan from "../../Assets/Projects/myPlan.png";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import textToVoice from "../../Assets/Projects/text-to-voice.png";
 import moviex from "../../Assets/Projects/moviex.png";
+import shoppo from "../../Assets/Projects/shoppo.png"
+import shopcart from "../../Assets/Projects/shopcart (1).png"
 
 function Projects() {
   return (
@@ -25,6 +27,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shopcart}
+              isBlog={false}
+              title="ShopCart"
+              description="Developing a personal e-commerce application for practice, ShopCart, using Next.js for the frontend and Fakestore API for the backend. Utilized Tailwind CSS to create a responsive, mobile-friendly UI and implemented Redux Toolkit for efficient state management, ensuring a seamless user experience."
+              ghLink="https://github.com/panku-chavan/shopcart"
+              demoLink="https://shopcart-murex.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shoppo}
+              isBlog={false}
+              title="ShopO"
+              description="A personal MERN stack project showcasing a fully functional ecommerce platform. Developed using React.js for the frontend,Node.js and Express.js for the backend, and MongoDB for the database. Implemented Stripe API for secure paymentprocessing. Styled using Tailwind CSS, ensuring a responsiveand modern UI. Integrated Redux Toolkit for efficient statemanagement and seamless user experience."
+              ghLink="https://github.com/panku-chavan/shopO"
+              demoLink="https://shop-o.onrender.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crypto}
