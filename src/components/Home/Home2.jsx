@@ -27,6 +27,10 @@ function Home2() {
               <i>
                 <b className="purple"> Javascript </b>
               </i>
+              <b>and</b>
+              <i>
+                <b className="purple"> Typescript </b>
+              </i>.
               <br />
               <br />
               My field of Interest's are building new &nbsp;
