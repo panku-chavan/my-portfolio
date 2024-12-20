@@ -12,8 +12,8 @@ body {
 
 .download-icon-btn {
   position: absolute;
-  top: 40px; /* Adjust to your preference */
-  right: 40px; /* Adjust to your preference */
+  top: 50px; /* Adjust to your preference */
+  right: 50px; /* Adjust to your preference */
   color: #434242b2;
   /* background-color: rgba(0, 0, 0, 0.6); Semi-transparent background */
   border-radius: 50%;
@@ -24,8 +24,8 @@ body {
   text-decoration: none;
 }
 .download-icon-btn:hover{
-  background-color: #b2b2b2b2;
-color: #302f2fb2;
+  background-color: purple;
+color: #e0d0d0;
 }
 
 
