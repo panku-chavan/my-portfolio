@@ -1,13 +1,21 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { IoMdDownload } from "react-icons/io";
+import { IoMdDownload, IoMdLink } from "react-icons/io";
 
-const CertificateCard = ({ img, title }) => {
+const CertificateCard = ({ img, title,link }) => {
     return (
-        <Card className="project-card-view position-relative">
+        
+        <Card className="project-card-view position-relative" >
             <Card.Body>
                 <Card.Img variant="top" src={img} alt="card-img" className="position-relative" />
                 <Card.Title>{title}</Card.Title>
+                <a 
+                    href={link} 
+                    target="_blank"
+                    className="link-icon-btn"
+                >
+                    <IoMdLink size={24} />
+                </a>
                 <a 
                     href={img} 
                     download 
@@ -15,6 +23,7 @@ const CertificateCard = ({ img, title }) => {
                 >
                     <IoMdDownload size={24} />
                 </a>
+                
             </Card.Body>
         </Card>
     );

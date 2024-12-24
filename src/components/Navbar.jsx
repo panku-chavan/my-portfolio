@@ -14,6 +14,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 import { TbCertificate } from "react-icons/tb";
+import profile from "../Assets/avatar.svg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -40,8 +41,21 @@ function NavBar() {
     >
       <Container>
         {/* <Navbar.Brand href="/" className="d-flex"> */}
-        <Navbar.Brand className="d-flex">
-          <span className="text-info" style={{ cursor: "pointer" }} onClick={() => navigate("/")}>Pankaj Chavan</span>
+        <Navbar.Brand className="d-flex gap-2">
+          <span
+            className="text-info"
+            style={{ cursor: "pointer" }}
+            onClick={() => navigate("/")}
+          >
+            <img src={profile} alt="profilepic" className="nav-profile" />
+          </span>
+          <span
+            className="text-info"
+            style={{ cursor: "pointer" }}
+            onClick={() => navigate("/")}
+          >
+            Pankaj Chavan
+          </span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -52,7 +66,6 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -104,8 +117,6 @@ function NavBar() {
                 <TbCertificate style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
-
-
 
             <Nav.Item className="fork-btn">
               <Button

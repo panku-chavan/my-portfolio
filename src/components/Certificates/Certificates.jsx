@@ -1,161 +1,43 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from '../Particle';
-import CertificateCard from './CertificateCard';
-import jsBasic from '../../Assets/Cerificates/jsBasic.jpg';
-import JsIntermediate from '../../Assets/Cerificates/JsIntermediate.jpg';
-import react from '../../Assets/Cerificates/react.jpg';
-import reduxSync from '../../Assets/Cerificates/reduxSync.png';
-import GYT from '../../Assets/Cerificates/GYS.png';
-import fg from '../../Assets/Cerificates/fg.png';
+import Particle from "../Particle";
+import CertificateCard from "./CertificateCard";
+import jsBasic from "../../Assets/Cerificates/jsBasic.jpg";
+import JsIntermediate from "../../Assets/Cerificates/JsIntermediate.jpg";
+import react from "../../Assets/Cerificates/react.jpg";
 
-import react2 from '../../Assets/Cerificates/react2.png';
-import rpa from '../../Assets/Cerificates/rpa.jpg';
-import advancereact from '../../Assets/Cerificates/advanceReact.png';
-import node from '../../Assets/Cerificates/node.png';
-import jqry from '../../Assets/Cerificates/jqry.png';
-import aws from '../../Assets/Cerificates/aws.png';
-import mongoose from '../../Assets/Cerificates/mongoose.png';
-import mongodb from '../../Assets/Cerificates/mongodb.png';
-import css from '../../Assets/Cerificates/css.png';
-import dom from '../../Assets/Cerificates/dom.png';
-import html from '../../Assets/Cerificates/html.png';
-import fswd from '../../Assets/Cerificates/fswd.png';
-import fd from '../../Assets/Cerificates/frontend.jpg';
+import rpa from "../../Assets/Cerificates/rpa.jpg";
 
+import fswd from "../../Assets/Cerificates/fswd.png";
+import fd from "../../Assets/Cerificates/frontend.jpg";
+
+const certificates = [
+  { title: "Fronend Development React Hackerrank", img: fd, link: "https://www.hackerrank.com/certificates/iframe/ede997426e1b" },
+  { title: "Full stack web development", img: fswd, link: "https://verified.sertifier.com/en/verify/37309545415262/" },
+  { title: "Javascript Basics", img: jsBasic, link: "https://www.hackerrank.com/certificates/iframe/4e7680f85a43" },
+  { title: "Javascript Intermediate", img: JsIntermediate, link: "https://www.hackerrank.com/certificates/iframe/c35ba335afd6" },
+  { title: "RPA Fundamental", img: rpa, link: "https://akademy.akabot.com/certificates/3c159bca0fa94503b162103b2780117a" },
+  { title: "React", img: react, link: "https://www.hackerrank.com/certificates/iframe/af94a5902369" },
+];
 
 const Certificates = () => {
-    return (
-        <Container fluid className="project-section">
-            <Particle />
-            <Container>
-                <h1 className="project-heading">
-                    My  <strong className="purple">Certificates </strong>
-                </h1>
-                <p style={{ color: "white" }}>
-                    Here are a few certificates I've earn.
-                </p>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={fswd}
-                            title={"Full stack web development"}
-                        />
+  return (
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          My <strong className="purple">Certificates </strong>
+        </h1>
+        <p style={{ color: "white" }}>Here are a few certificates I've earn.</p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {certificates.map((certificate,index)=>(<Col key={index} md={6} className="project-card">
+            <CertificateCard img={certificate.img} title={certificate.title} link={certificate.link}/>
+          </Col>))}
+          
+        </Row>
+      </Container>
+    </Container>
+  );
+};
 
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={fd}
-                            title={"Frontend Developer React"}
-                        />
-                        
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={jsBasic}
-                            title={"Javascript Basics"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={JsIntermediate}
-                            title={"Javascript Intermediate"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={rpa}
-                            title={"RPA Fundamental"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={react}
-                            title={"React"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={reduxSync}
-                            title={"Redux Syncronous"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={GYT}
-                            title={"Get Youtube Subscribers Backend-Project"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={fg}
-                            title={"Flashcard Generator Frontend-Project"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={react2}
-                            title={"Introduction to react"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={advancereact}
-                            title={"React Advance"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={node}
-                            title={"Introduction to NodeJs"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={jqry}
-                            title={"Introduction to jQuery"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={aws}
-                            title={"Introduction to Aws"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={mongoose}
-                            title={"Introduction to Mongoose"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={mongodb}
-                            title={"Introduction to MongoDb"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={css}
-                            title={"Introduction to CSS"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={dom}
-                            title={"Introduction to DOM"}
-                        />
-                    </Col>
-                    <Col md={6} className="project-card">
-                        <CertificateCard
-                            img={html}
-                            title={"Introduction to HTML"}
-                        />
-                    </Col>
-                </Row>
-            </Container>
-        </Container>
-    )
-}
-
-export default Certificates
+export default Certificates;
