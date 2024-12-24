@@ -21,6 +21,7 @@ import css from '../../Assets/Cerificates/css.png';
 import dom from '../../Assets/Cerificates/dom.png';
 import html from '../../Assets/Cerificates/html.png';
 import fswd from '../../Assets/Cerificates/fswd.png';
+import fd from '../../Assets/Cerificates/frontend.jpg';
 
 
 const Certificates = () => {
@@ -40,6 +41,14 @@ const Certificates = () => {
                             img={fswd}
                             title={"Full stack web development"}
                         />
+
+                    </Col>
+                    <Col md={6} className="project-card">
+                        <CertificateCard
+                            img={fd}
+                            title={"Frontend Developer React"}
+                        />
+                        
                     </Col>
                     <Col md={6} className="project-card">
                         <CertificateCard
