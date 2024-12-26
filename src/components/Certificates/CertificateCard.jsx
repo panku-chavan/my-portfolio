@@ -13,6 +13,7 @@ const CertificateCard = ({ img, title,link }) => {
                     href={link} 
                     target="_blank"
                     className="link-icon-btn"
+                    rel="noreferrer"
                 >
                     <IoMdLink size={24} />
                 </a>

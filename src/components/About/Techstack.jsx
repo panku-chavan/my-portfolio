@@ -15,7 +15,6 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiRedux,
-  SiTypescript 
 } from "react-icons/si";
 import { TbBrandTypescript } from "react-icons/tb";
 function Techstack() {
