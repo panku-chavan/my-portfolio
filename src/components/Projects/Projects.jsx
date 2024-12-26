@@ -12,8 +12,9 @@ import myPlan from "../../Assets/Projects/myPlan.png";
 import ecom from "../../Assets/Projects/ecom.jpg";
 import textToVoice from "../../Assets/Projects/text-to-voice.png";
 import moviex from "../../Assets/Projects/moviex.png";
-import shoppo from "../../Assets/Projects/shoppo.png"
-import shopcart from "../../Assets/Projects/shopcart (1).png"
+import shoppo from "../../Assets/Projects/shoppo.png";
+import shopcart from "../../Assets/Projects/shopcart (1).png";
+import bulkemail from "../../Assets/Projects/bulk-email.png";
 
 function Projects() {
   return (
@@ -27,7 +28,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bulkemail}
+              isBlog={false}
+              title="Bulk Email Sender"
+              description="The Bulk Email Sender is a MERN stack application designed to simplify sending job applications or bulk emails. Users can upload a CSV file with email addresses and send personalized emails simultaneously. This is private and personal application i've developed for avoiding sending mail again and again. Its intuitive interface ensures a smooth user experience for managing bulk email campaigns."
+              ghLink="https://github.com/panku-chavan/bulk-email-app-frontend"
+              demoLink="https://bulk-email-app-frontend.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shopcart}
               isBlog={false}
