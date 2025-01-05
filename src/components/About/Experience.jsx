@@ -48,7 +48,7 @@ const Experience = () => {
                 </li>
               </ul>
               <footer className="blockquote-footer">
-                June-2023 to current
+                Junuary-2023 to current
               </footer>
             </div>
 
@@ -95,7 +95,7 @@ const Experience = () => {
                 </li>
               </ul>
               <footer className="blockquote-footer">
-                Augest-2022 to May-2023 : 10 Months
+                june-2022 to january-2023 
               </footer>
             </div>
             <hr />

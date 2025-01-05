@@ -4,9 +4,9 @@ import {
   SiLinux,
   SiPostman,
   SiVercel,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import { FaWindows } from "react-icons/fa";
-import { VscVscode } from "react-icons/vsc";
 
 function Toolstack() {
   return (
@@ -18,7 +18,7 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <VscVscode />
+        <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
