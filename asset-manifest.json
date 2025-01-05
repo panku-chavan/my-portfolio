@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ce13d698.css",
-    "main.js": "/my-portfolio/static/js/main.dd8cc3f0.js",
+    "main.js": "/my-portfolio/static/js/main.2e73687a.js",
     "static/js/453.41811d64.chunk.js": "/my-portfolio/static/js/453.41811d64.chunk.js",
     "static/media/JsIntermediate.jpg": "/my-portfolio/static/media/JsIntermediate.67234e1ebecab9e6df4f.jpg",
     "static/media/jsBasic.jpg": "/my-portfolio/static/media/jsBasic.b5f590650759e20727cd.jpg",
     "static/media/react.jpg": "/my-portfolio/static/media/react.aa2f55c217a962737630.jpg",
     "static/media/moviex.png": "/my-portfolio/static/media/moviex.ed096c6955f418602f15.png",
     "static/media/ecom.jpg": "/my-portfolio/static/media/ecom.05f225b4d075ae7a1935.jpg",
+    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.71adb37063deafef79d3.jpg",
     "static/media/profilePic.jpg": "/my-portfolio/static/media/profilePic.38fc7369db5bfab30fc2.jpg",
     "static/media/frontend.jpg": "/my-portfolio/static/media/frontend.fc4be7f4eaf76bafcb29.jpg",
-    "static/media/PankajChavan.jpg": "/my-portfolio/static/media/PankajChavan.9e5416b664e17cd21db7.jpg",
     "static/media/myportfolio.png": "/my-portfolio/static/media/myportfolio.58fce0f1875f0c9543b5.png",
+    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.aa3a881ca88629e51cb7.pdf",
     "static/media/shoppo.png": "/my-portfolio/static/media/shoppo.39f96eb876b388a19777.png",
     "static/media/rpa.jpg": "/my-portfolio/static/media/rpa.5bbf181908756413fbf2.jpg",
     "static/media/shopcart (1).png": "/my-portfolio/static/media/shopcart (1).19caf0cfda52dd9807ee.png",
@@ -28,16 +29,15 @@
     "static/media/text-to-voice.png": "/my-portfolio/static/media/text-to-voice.98041764e3e65929c24b.png",
     "static/media/myPlan.png": "/my-portfolio/static/media/myPlan.bdc2c697afd998ef11d5.png",
     "static/media/home-bg.jpg": "/my-portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/PankajChavan.pdf": "/my-portfolio/static/media/PankajChavan.67716b459a10e83aedf3.pdf",
     "static/media/avatar.svg": "/my-portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/my-portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/my-portfolio/index.html",
     "main.ce13d698.css.map": "/my-portfolio/static/css/main.ce13d698.css.map",
-    "main.dd8cc3f0.js.map": "/my-portfolio/static/js/main.dd8cc3f0.js.map",
+    "main.2e73687a.js.map": "/my-portfolio/static/js/main.2e73687a.js.map",
     "453.41811d64.chunk.js.map": "/my-portfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce13d698.css",
-    "static/js/main.dd8cc3f0.js"
+    "static/js/main.2e73687a.js"
   ]
 }
