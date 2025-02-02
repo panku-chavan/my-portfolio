@@ -16,8 +16,16 @@ import shoppo from "../../Assets/Projects/shoppo.png";
 import shopcart from "../../Assets/Projects/shopcart (1).png";
 import bulkemail from "../../Assets/Projects/bulk-email.png";
 import shopsy from "../../Assets/Projects/shopsy.png";
+import searchnapply from "../../Assets/Projects/searchandapply.png";
 
 const projectData = [
+  {
+    imgPath: searchnapply,
+    title: "Searchandapply.io",
+    description:"SearchAndApply.io is an innovative job application platform designed to help users streamline their job search journey. With a user-friendly interface, job seekers can create personalized accounts, track applications, and receive expert guidance to land their dream jobs. SearchAndApply.io empowers you with the tools and insights needed to achieve your career goals efficiently.",
+    ghLink: "https://github.com/panku-chavan/searchandapply",
+    demoLink: "https://searchandapply.vercel.app/",
+  },
   {
     imgPath: shopsy,
     title: "Shopsy",
